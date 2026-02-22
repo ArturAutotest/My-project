@@ -1,6 +1,7 @@
 import { test as setup, expect } from "@playwright/test";
 
 setup("authenticate", async ({ request }) => {
+  console.log(`USERNAME ${process.env.USER_NAME}, PASSWORD ${process.env.PASSWORD}`)
   // Perform the API login request
   const response = await request.post("auth/login", {
     data: {
