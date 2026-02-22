@@ -8,8 +8,8 @@ import dotenv from "dotenv";
 // import path from 'path';
 // dotenv.config({ path: path.resolve(__dirname, '.env') });
 
-// config for local developement
-dotenv.config({ path: ".env.local" });
+// // config for local developement
+// dotenv.config({ path: ".env.local" });
 
 /**
  * See https://playwright.dev/docs/test-configuration.
